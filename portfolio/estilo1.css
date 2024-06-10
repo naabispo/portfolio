@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Spinmaster';
+    src: url('/fonts/Spinmaster.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Spinmaster';
+    background-color: beige;
+}
+#menu {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li a {
+    display: inline-block;
+    color: white;
+}
+#menu ul li a:hover {
+    color: rgb(117, 117, 117);
+}
+#trabalhos {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
+    }
+#sobre {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(241, 241, 241);
+}
+#contato {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(241, 241, 241);
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+img {
+    top: 30%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
